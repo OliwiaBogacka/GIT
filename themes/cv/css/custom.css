@@ -1,0 +1,183 @@
+/* Obramowanie robocze */
+/* div {
+    border: 1px solid #000;
+} */
+.container {
+  margin: 0 auto;
+  width: 87%;
+  min-height: 1700px;
+  background: var(--background-color);
+}
+
+.hero-img {
+  border: 30px solid var(--hero-img-border);
+  margin-top: 80px;
+  border-radius: 180px;
+  margin-left: 80px;
+  margin-bottom: 60px;
+}
+
+.col-left,
+.col-right {
+  display: inline-block;
+}
+
+.col-left {
+  width: 40%;
+  float: left;
+}
+
+.col-right {
+  width: 59%;
+  float: right;
+}
+
+.h3-bg {
+  width: 60%;
+  background: #333f50;
+  border-radius: 4px;
+  display: block;
+  text-align: left;
+  padding: 4px 10px;
+}
+
+.row {
+  min-height: 300px;
+  padding-bottom: 20px;
+}
+
+.col-left .row {
+  margin-left: 95px;
+}
+
+.col-right .row {
+  margin-left: 45px;
+}
+
+.profile-desc {
+  padding-left: 15px;
+}
+
+.semibold {
+  color: #fdc010;
+  display: block;
+}
+
+.name {
+  min-height: 515px;
+}
+
+.hero-name {
+  position: relative;
+  top: 110px;
+  left: 62px;
+}
+
+.hero-info {
+  position: relative;
+  top: 134px;
+  left: 69px;
+}
+
+.progress1,
+.progress2,
+.progress3,
+.progress4,
+.skill-name {
+  display: inline-block;
+}
+
+.progress1,
+.progress2,
+.progress3,
+.progress4 {
+  width: 300px;
+  background: #333f50;
+  height: 25px;
+  position: relative;
+  top: 6px;
+  left: 30px;
+  border-radius: 13px;
+}
+
+.skill-name {
+  width: 75px;
+}
+
+.progress1:after {
+  content: "";
+  width: 250px;
+}
+
+.progress2:after {
+  content: "";
+  width: 200px;
+}
+
+.progress3:after {
+  content: "";
+  width: 150px;
+}
+
+.progress4:after {
+  content: "";
+  width: 280px;
+}
+
+.progress1:after,
+.progress2:after,
+.progress3:after,
+.progress4:after {
+  display: block;
+  height: 25px;
+  border-radius: 13px;
+  background-color: #fdc010;
+}
+
+.icon {
+  font-size: 26px;
+  color: var(--background-color);
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  /* position: relative; */
+  text-align: center;
+  /* top: 12px; */
+}
+
+.insta-wrap,
+.facebook-wrap,
+.env-wrap {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background: var(--yellow);
+  margin: 10px;
+}
+
+.info-inner {
+  width: 100%;
+  min-height: 200px;
+  margin: 10px;
+}
+
+.desc {
+  margin-top: 15px;
+}
+
+.box1 {
+  font-size: 12px;
+}
+.box1 .box2 {
+  font-size: 12px;
+}
+.box1 .box2 .wrapper {
+  font-size: 12px;
+}/*# sourceMappingURL=custom.css.map */
+
+.box1,
+.box1 .box2,
+.box1 .box2 .wrapper {
+  font-size: 12px;
+}

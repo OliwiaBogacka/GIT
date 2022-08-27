@@ -1,0 +1,13 @@
+:root {
+  --background-color: #212935;
+  --yellow: #fdc010;
+  --background-header: #333f50;
+  --hero-img-border: #444F5D;
+  --anchor-color: #363636;
+  --white: #fff;
+  --black: #000;
+}
+
+.hero-img {
+  --hero-color2: #352344;
+}/*# sourceMappingURL=variables.css.map */

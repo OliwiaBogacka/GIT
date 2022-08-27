@@ -1,0 +1,122 @@
+html {
+  font-size: 20px;
+}
+
+p {
+  font-family: "montserratlight";
+  color: #fff;
+}
+
+.col-left p {
+  font-size: 24px;
+  text-align: justify;
+  line-height: 42px;
+}
+
+.col-right p {
+  font-size: 14px;
+  text-align: justify;
+  color: var(--white);
+}
+
+h1 {
+  font-family: "montserratsemibold";
+  font-size: 80px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 90px;
+  color: #fff;
+}
+
+h2 {
+  font-family: "montserratsemibold";
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 21px;
+  letter-spacing: 4px;
+}
+
+h3,
+.h3 {
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 9px;
+  font-family: "montserratbold";
+  color: #fdc010;
+  margin-bottom: 20px;
+  /* font-family: 'Montserrat', sans-serif;
+  font-weight: 900; */
+}
+
+h4,
+.h4 {
+  font-size: 24px;
+  color: var(--white);
+  font-family: "montserratbold";
+}
+
+h4, h5, h6 {
+  margin: 5px 0 5px;
+  font-weight: bold;
+}
+
+a img {
+  border: none;
+  outline: none;
+}
+
+a {
+  color: #363636;
+  outline: none;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "montserratlight";
+}
+
+a:hover {
+  color: #999;
+}
+
+.contact a {
+  color: var(--white);
+}
+
+/* remove dotted lines on some links in FF browser */
+a,
+a:active,
+a:visited,
+a img {
+  outline: none;
+}
+
+/* / */
+/* CLEARFIX */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.name {
+  color: var(--yellow);
+  font-style: italic;
+  font-size: 16px;
+  font-family: "montserratlight";
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+html[xmlns] .clearfix {
+  display: block;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+/* /END CLEARFIX *//*# sourceMappingURL=typography.css.map */
